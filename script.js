@@ -13,12 +13,12 @@ document.querySelectorAll('.nav-menu a').forEach(link => {
     });
 });
 
-// Form submission handling
+/*// Form submission handling
 document.getElementById('contactForm').addEventListener('submit', function(e) {
     e.preventDefault();
     alert('Thank you for your message! I will get back to you soon.');
     this.reset();
-});
+});*/
 
 // Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -157,4 +157,5 @@ function showGreeting(message) {
 document.addEventListener('DOMContentLoaded', function() {
     // Use real API - IT JUST WORKS!
     getRealLocation();
+
 });
